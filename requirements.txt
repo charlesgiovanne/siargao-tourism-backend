@@ -1,0 +1,8 @@
+Django
+djangorestframework
+djangorestframework-simplejwt
+supabase
+python-decouple
+psycopg2-binary
+Pillow
+python-dotenv
