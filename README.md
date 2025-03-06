@@ -21,8 +21,8 @@ This repository contains the **Django + Supabase** backend for the Visit Siargao
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/visit-siargao-backend.git
-cd visit-siargao-backend
+git clone https://github.com/charlesgiovanne/siargao-tourism-backend.git
+cd visit-siargao
 ```
 
 ### 2. Virtual Environment
@@ -41,12 +41,11 @@ pip install -r requirements.txt
 ### 4. Environment Variables
 Create a `.env` file in the root directory.
 
-Example:
-```env
+```.env
 DEBUG=True
-SECRET_KEY=your_secret_key
-SUPABASE_URL=https://your-supabase-url.supabase.co
-SUPABASE_KEY=your_supabase_api_key
+SECRET_KEY=django-insecure-m7vkte0*29@7=b3(xgde6-&*+g7qvj6^x@+o_u=1vl-wr$bwy&
+SUPABASE_URL=https://cqskssjuivrjxmshgpzk.supabase.co
+SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxc2tzc2p1aXZyanhtc2hncHprIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA5Nzc5NDEsImV4cCI6MjA1NjU1Mzk0MX0.n3lN3gdz5_PWo5xlZ7C-_-DxqJMPzQIULntOgHNvYcI
 ```
 
 ### 5. Database Migrations
